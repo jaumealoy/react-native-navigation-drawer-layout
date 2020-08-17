@@ -86,7 +86,6 @@ export default class NavigationDrawerLayout extends React.Component {
   }
 
   componentDidMount() {
-    this.openDrawer();
     const { window } = this.state;
     const { type } = this.props;
     if (type != 'simple') {
